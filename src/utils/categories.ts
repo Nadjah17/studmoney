@@ -1,9 +1,9 @@
-export const categories = [
+export const expenseCategories = [
   'Nourriture',
   'Transport',
   'Logement',
-  'Loisirs',
   'Études',
   'Santé',
+  'Loisirs',
   'Autres',
-]
+];

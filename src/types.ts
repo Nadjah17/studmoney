@@ -1,7 +1,13 @@
 export interface Expense {
-  id: number
-  title: string
-  amount: number
-  category: string
-  date: string
+  id: string;
+  title: string;
+  amount: number;
+  category: string;
+  date: string;
+  description?: string;
+}
+
+export interface Budget {
+  totalBudget: number;
+  alertThreshold: number;
 }
